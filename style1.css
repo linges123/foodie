@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    
+    
+    
+}
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 70px;
+    padding: 10px;
+   
+
+}
+.home:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+.products{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.food{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 225px;
+    text-align: center;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 10px;
+}   
+.button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.contact{
+background-color: black;
+color: white;
+padding: 30px;
+border-radius: 70px;
+font-weight: bolder;
+
+}
+.final{
+    border-radius: 20px;
+    width: 100px;
+    background-color: rgb(255, 102, 0);
+    padding: 5px;
+    font-weight: bold;
+}
+.final:hover{
+    cursor: pointer;
+}
+
+.checked {
+    color: orange;
+  }

@@ -1,0 +1,86 @@
+    <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Foodie </title>
+        <div class="header">
+            <h1>Restaurant On Wheel 🍽
+            </h1>
+            <h3 style="color: gray;" class="home">Home | Receipe | Contact</h3>
+        </div>
+
+        <div class="products">
+            <center>
+            <div class="food">
+                <img src="image/briyani.jpeg" alt="briyani" width="225px" height="275px">
+                <h2>BRIYANI</h2>
+                <p><b>Something which is very delicious</b></p>
+                <button class="button" onclick="youFunction()">Order Now</button>
+            </div>
+
+            <div class="food">
+                <img src="image/parotta.jpeg" alt="porotta" width="225px" height="275px">
+                <h2>POROTTA</h2>
+                <p><b>Something which is very delicious</b></p>
+                <button class="button" onclick="youFunction()">Order Now</button>
+            </div>
+
+            <div class="food">
+                <img src="image/spl dosa.jpeg" alt="SPL DOSA" width="225px" height="275px">
+                <h2>GHEE ROST</h2>
+                <p><b>Something which is very delicious</b></p>
+                <button class="button" onclick="youFunction()">Order Now</button>
+            </div>
+
+            <div class="food">
+                <img src="image/paneer butter.jpeg" alt="porotta" width="225px" height="250px">
+                <h2>PANEER BUTTER MASALA</h2>
+                <p><b>Something which is very delicious</b></p>
+                <button class="button" onclick="youFunction()">Order Now</button>
+            </div>
+            
+        </center>
+        </div>
+
+        <div class="contact">
+            <center>
+            <h1> Place Your Order</h1>
+            <form >
+                <table>
+                    <tr>
+                        <td></td><td><input type="text"  placeholder=" Name" style="border-radius: 6px; text-align: center;"></td>
+                    </tr><br>
+
+                    <tr>
+                        <td></td><td><input type="text" placeholder=" Mobile Num" style="border-radius: 6px; text-align: center;"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td><td><input type="text" placeholder=" address" style="border-radius: 6px; text-align: center;"></td>
+                    </tr>
+                
+                </table><br>
+                <button class="final" type="button" onclick="myFunction()">CONFORM</button><br><br>
+            
+                <h2>Star Rating</h2>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+            </form>
+        </center>
+        </div>
+        <script>
+            function myFunction(){
+                alert("✅order confirmed ");
+            }
+            function youFunction(){
+                alert("✅Your order is under processing so wait pannu da 😅");
+            }
+        </script>
+
+
+    </head>
+</html>
